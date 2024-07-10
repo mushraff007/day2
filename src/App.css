@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #454eefaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #2eaccfaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #ca1515;
+}
+#id1{
+  color: #0d0101;
+}
+.app {
+  background-image: url('/Users/musharaf/Documents/MERN/Day2/myapp/src/componats/pexels-sl-wong-338694-1023953.jpg');
+  background-repeat: repeat; /* Adjust as needed */
+  background-size: cover; /* Adjust as needed */
+  width: 100vw;
+  height: 100vh;
+}

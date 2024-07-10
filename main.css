@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(232, 220, 170);
+  }
+  h1 {
+    color: rgb(255, 0, 0);
+  }
+  p {
+    color: rgb(0, 0, 0);
+  }
+  #id1{
+    background-color: rgb(234, 173, 94);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
